@@ -15,6 +15,8 @@ Mining phase up to block 275999 then POS/Masternode.
 
 POW block reward - 50TIM
 
+POS block reward - 35TIM
+
 Masternode block reward - 
 
 
