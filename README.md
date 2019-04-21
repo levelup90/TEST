@@ -1,4 +1,4 @@
-# Timcoin
+# TIMcoin
 
 Community takeover of TIMEISMONEY
 
@@ -11,10 +11,10 @@ bounties etc.
 
 Will be community led with voting on issues and ideas. 
 
-Mining phase up to block 10000 then POS/Masternode.
+Mining phase up to block 275999 then POS/Masternode.
 
-POW block reward - 60TIM
+POW block reward - 50TIM
 
-Masternode block reward - 60TIM
+Masternode block reward - 
 
 
