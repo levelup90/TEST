@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=TIMcoin
+Comment=TIMcoin P2P Cryptocurrency
+Comment[fr]=TIMcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=TIMcoin, eşten eşe kriptografik sanal para birimi
+Exec=timcoin-qt %u
+Terminal=false
+Type=Application
+Icon=timcoin128
+MimeType=x-scheme-handler/timcoin;
+Categories=Office;Finance;

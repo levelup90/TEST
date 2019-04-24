@@ -1,0 +1,26 @@
+# /etc/conf.d/timcoind: config file for /etc/init.d/timcoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/timcoin/timcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/timcoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/timcoind.pid"
+
+# Where to write timcoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/timcoind"
+
+# User and group to own timcoind process
+#BITCOIND_USER="timcoin"
+#BITCOIND_GROUP="timcoin"
+
+# Path to timcoind executable
+#BITCOIND_BIN="/usr/bin/timcoind"
+
+# Nice value to run timcoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
