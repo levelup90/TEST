@@ -54,9 +54,14 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
     (0, uint256("00000cc4abb740688316969f18c6c5c141f414c52ec1db6767081f98e966937d"));
+	(5000,uint256("7a56552fdbb4e92f0afdfaa868f2eb69fa9c4b3ebb6f6bf829c270edc99a5590"));
+	(11000,uint256("7d35225665f38d13b908591c832b1478f1a5952895a11337a2d7d343a875196d"));
+	(22000,uint256("0ca811a7805f53ab7c5ac029e4e79ca1a9f5e3ec85ef39005a3a22b421997585"));
+	(33000,uint256("a9f1709b214616d09c905ce2a818b0dc7bffe52d30e1e31d9e27deb7aa5b3064"));
+	(44000,uint256("2647c3b53bc15b1bfccab6a5d0377190a59a0be47f97ac1e4f8da6a9e5a70bd6"));
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1555233616, // * UNIX timestamp of last checkpoint block
+    1569722280, // * UNIX timestamp of last checkpoint block
     0,    // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     0        // * estimated number of transactions per day after checkpoint
@@ -121,14 +126,15 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 10 * 60;
-        nTargetSpacing = 5 * 60;
+        nTargetTimespan = 1 * 60;
+        nTargetSpacing = 1 * 60;
         nMaturity = 20;
         nMasternodeCountDrift = 20;
         nMaxMoneyOut = 9999999999 * COIN;
-
+		strDeveloperFeePayee = "TRgi8NYKA3RukMbouUCSdRjAyzmXKxKLWm";
+		
         /** Height or Time Based Activations **/
-        nLastPOWBlock = 275999;
+        nLastPOWBlock = 59999;
         nModifierUpdateBlock = 999999999;
         nZerocoinStartHeight = 276000;
         nZerocoinStartTime = 1555233616;
