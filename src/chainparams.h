@@ -126,6 +126,8 @@ public:
     int Zerocoin_Block_V2_Start() const { return nBlockZerocoinV2; }
     CAmount InvalidAmountFiltered() const { return nInvalidAmountFiltered; };
 
+    std::string GetDeveloperFeePayee() const { return strDeveloperFeePayee; }
+
 protected:
     CChainParams() {}
 
@@ -188,6 +190,8 @@ protected:
     int nBlockLastGoodCheckpoint;
     int nBlockEnforceInvalidUTXO;
     int nBlockZerocoinV2;
+	
+	std::string strDeveloperFeePayee;
 };
 
 /**
